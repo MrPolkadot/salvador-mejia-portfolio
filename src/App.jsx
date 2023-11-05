@@ -1,17 +1,13 @@
-import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Project from "./components/Project";
-
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div className="portfolio-page">
       <Header />
-      <Project />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-
-export default App
+export default App;
