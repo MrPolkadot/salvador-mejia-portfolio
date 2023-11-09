@@ -1,18 +1,15 @@
-import Navigation from "./Navigation"
+import React from "react";
+import Navigation from "./Navigation";
 
+const Header = (props) => {
+  return (
+    <header>
+      <Navigation
+      currentPage={props.currentPage}
+      setCurrentPage={props.setCurrentPage}
+      />
+    </header>
+  );
+};
 
-
-const Header = () => {
-    return (
-        <div>
-            <h1>Salvador Mejia</h1>
-            <Navigation />
-        </div>
-    )
-}
-
-
-
-
-
-export default Header
+export default Header;
