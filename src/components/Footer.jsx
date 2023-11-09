@@ -11,6 +11,7 @@ const Footer = () => {
       >
         <i className="fa-brands fa-linkedin fa-2xl"></i>
       </a>
+      <a href="mailto:ceballos93@gmail.com"><i className="fa-solid fa-envelope fa-2xl"></i></a>
     </footer>
   );
 };
