@@ -28,7 +28,7 @@ const App = () => {
     <div>
       {/* <Header /> */}
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      <main>
+      <main className="my-4">
         {renderPage()}
         </main>
       <Footer />

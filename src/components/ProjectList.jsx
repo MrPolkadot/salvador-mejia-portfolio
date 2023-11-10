@@ -2,40 +2,18 @@ const ProjectList = () => {
   return [
     {
       id: 1,
+      imageUrl: "urltest",
       title: "test1",
-      url: "urltest",
-      projectDescription: "desc test",
+      deployedLink: "testdeploy",
+      githubRepo: "repo-link",
     },
     {
       id: 2,
+      imageUrl: "urltest2",
       title: "test2",
-      url: "urltest2",
-      projectDescription: "desc test",
+      deployedLink: "testdeploy2",
+      githubRepo: "repo-link2",
     },
-    // {
-    //     id:
-    //         title:
-    //     url:
-    //         projectDescription:
-    // },
-    // {
-    //     id:
-    //         title:
-    //     url:
-    //         projectDescription:
-    // },
-    // {
-    //     id:
-    //         title:
-    //     url:
-    //         projectDescription:
-    // },
-    // {
-    //     id:
-    //         title:
-    //     url:
-    //         projectDescription:
-    // },
   ];
 };
 
