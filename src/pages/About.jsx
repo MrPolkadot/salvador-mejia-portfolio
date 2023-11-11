@@ -2,7 +2,7 @@ import "../styles/About.css";
 
 const About = () => {
   return (
-    <>
+    <div>
       <section className="hero is-medium is-info">
         <div className="hero-body">
           <figure className="image is-128x128">
@@ -25,7 +25,8 @@ const About = () => {
           </p>
         </div>
       </section>
-    </>
+      <br />
+    </div>
   );
 };
 

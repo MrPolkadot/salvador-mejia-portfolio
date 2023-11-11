@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
+import "./App.css";
  import About from "./pages/About";
  import Contact from "./pages/Contact";
-// import Portfolio from "./pages/Portfolio";
+import Portfolio from "./pages/Portfolio";
 // import Resume from "./pages/Resume";
 
 const App = () => {
@@ -26,7 +25,6 @@ const App = () => {
   };
   return (
     <div>
-      {/* <Header /> */}
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <main className="my-4">
         {renderPage()}

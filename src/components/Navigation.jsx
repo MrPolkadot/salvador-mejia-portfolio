@@ -34,14 +34,14 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
           </a>
           <a
             className="navbar-item"
-            href="#contact"
+            href="#portfolio"
             onClick={() => setCurrentPage("Portfolio")}
           >
             Portfolio
           </a>
           <a
             className="navbar-item"
-            href="#contact"
+            href="#resume"
             onClick={() => setCurrentPage("Resume")}
           >
             Resume
