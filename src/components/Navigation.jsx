@@ -1,6 +1,6 @@
 const Navigation = ({ currentPage, setCurrentPage }) => {
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="navbar is-flex is-justify-content-center" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a
           role="button"
@@ -20,28 +20,28 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
         <div className="navbar-start">
           <a
             className="navbar-item"
-            href="#about"
+            href="/"
             onClick={() => setCurrentPage("About")}
           >
             About
           </a>
           <a
             className="navbar-item"
-            href="#contact"
+            href="/contact"
             onClick={() => setCurrentPage("Contact")}
           >
             Contact
           </a>
           <a
             className="navbar-item"
-            href="#portfolio"
+            href="/portfolio"
             onClick={() => setCurrentPage("Portfolio")}
           >
             Portfolio
           </a>
           <a
             className="navbar-item"
-            href="#resume"
+            href="/resume"
             onClick={() => setCurrentPage("Resume")}
           >
             Resume

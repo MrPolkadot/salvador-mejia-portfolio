@@ -1,7 +1,19 @@
 .profile-img {
     border-radius: 10px;
+    height: 200px !important;
+    width: 200px !important;
+
+}
+
+.background-img {
+    background-image: url("/images/ai-generated-8174797_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
-
-
+.about-box {
+    border-radius: 5px;
+    background-color: rgba(23, 20, 68, 0.641);
+}

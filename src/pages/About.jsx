@@ -1,20 +1,23 @@
 import "../styles/About.css";
+import Navigation from "../components/Navigation";
+
 
 const About = () => {
   return (
-    <div>
-      <section className="hero is-medium is-info">
-        <div className="hero-body">
-          <figure className="image is-128x128">
+    <>
+    <Navigation />
+    <div className="background-img">
+      <section className="hero is-medium">
+        <div className="hero-body is-flex is-flex-direction-column is-align-items-center">
+          <figure className="image">
             <img
               className="profile-img is-rounded"
-              src="./images/profile-image.jpeg"
+              src="/images/profile-image.jpeg"
               alt="profile-picture"
             />
           </figure>
-
-          <h1 className="title">Welcome!</h1>
-          <h2 className="subtitle">Portfolio of Salvador Mejia</h2>
+          <div className="has-text-white about-box is-size-4">
+          <h1 className="title has-text-white has-text-centered ">Welcome!</h1>
           <p>
             Greetings! I’m Salvador Mejia, a dedicated web developer on a
             mission to transform ideas into engaging online realities. With a
@@ -24,9 +27,12 @@ const About = () => {
             together.
           </p>
         </div>
+          
+        </div>
       </section>
       <br />
-    </div>
+      </div>
+      </>
   );
 };
 

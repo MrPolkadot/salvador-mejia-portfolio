@@ -1,14 +1,19 @@
 import React from "react";
 import Navigation from "./Navigation";
+import "../App.css";
 
 const Header = (props) => {
   return (
-    <header>
-      <Navigation
-      currentPage={props.currentPage}
-      setCurrentPage={props.setCurrentPage}
-      />
+    <>
+    
+    <header className="is-flex is-justify-content-center">
+        <Navigation />
     </header>
+    
+    
+    
+    </>
+    
   );
 };
 

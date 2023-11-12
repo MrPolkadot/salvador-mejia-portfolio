@@ -1,0 +1,22 @@
+.project-img {
+    height: 200px;
+    width: 400px;
+}
+
+
+.projects-layout {
+    display: flex !important;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center !important;
+    padding-bottom: 50px;
+}
+
+.project-card {
+    width: 400px !important;
+    
+}
+
+.cardz {
+    box-shadow: 5px 3px 5px rgb(126, 65, 180) !important;
+}

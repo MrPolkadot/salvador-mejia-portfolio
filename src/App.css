@@ -1,5 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    position: relative;
+    background: hsla(238, 44%, 14%, 1);
+
+    background: radial-gradient(circle, hsla(238, 44%, 14%, 1) 0%, hsla(273, 50%, 22%, 1) 100%);
+    
+    background: -moz-radial-gradient(circle, hsla(238, 44%, 14%, 1) 0%, hsla(273, 50%, 22%, 1) 100%);
+    
+    background: -webkit-radial-gradient(circle, hsla(238, 44%, 14%, 1) 0%, hsla(273, 50%, 22%, 1) 100%);
+    padding-bottom: 30px;
+    min-height: 100vh;
+    overflow-x: hidden !important;
+}
 
 
 footer {
-    background-color: red;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-top: 10px;
+    background-color: (hsla(273, 50%, 22%, 1) 100%);
 }
