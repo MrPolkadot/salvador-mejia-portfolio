@@ -1,4 +1,10 @@
+import { useState } from "react";
+
+
+
 const Navigation = ({ currentPage, setCurrentPage }) => {
+ 
+
   return (
     <nav className="navbar is-flex is-justify-content-center" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
