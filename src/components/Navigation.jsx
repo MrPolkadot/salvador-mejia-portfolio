@@ -1,12 +1,12 @@
 import { useState } from "react";
 
-
-
 const Navigation = ({ currentPage, setCurrentPage }) => {
- 
-
   return (
-    <nav className="navbar is-flex is-justify-content-center" role="navigation" aria-label="main navigation">
+    <nav
+      className="navbar is-flex is-justify-content-center"
+      role="navigation"
+      aria-label="main navigation"
+    >
       <div className="navbar-brand">
         <a
           role="button"
@@ -27,28 +27,28 @@ const Navigation = ({ currentPage, setCurrentPage }) => {
           <a
             className="navbar-item"
             href="/"
-            onClick={() => setCurrentPage("About")}
+            // onClick={() => setCurrentPage("About")}
           >
             About
           </a>
           <a
             className="navbar-item"
             href="/contact"
-            onClick={() => setCurrentPage("Contact")}
+            //onClick={() => setCurrentPage("Contact")}
           >
             Contact
           </a>
           <a
             className="navbar-item"
             href="/portfolio"
-            onClick={() => setCurrentPage("Portfolio")}
+            //onClick={() => setCurrentPage("Portfolio")}
           >
             Portfolio
           </a>
           <a
             className="navbar-item"
             href="/resume"
-            onClick={() => setCurrentPage("Resume")}
+            //onClick={() => setCurrentPage("Resume")}
           >
             Resume
           </a>
